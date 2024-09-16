@@ -128,5 +128,107 @@ button:hover{
      background-color: #c1ab84;
 }
 .buttons button:first-of-type{
-     background-color:#c1ab84 ;
+   
+  background-color:#c1ab84 ;
+}
+
+/*footer code*/
+i{
+     color:#969696;
+}
+footer{
+     background-color: #403d38;
+}
+footer  .MainFooter{
+    display: flex;
+     justify-content: center;
+     background-color: #484237;
+     padding-top: 40px;
+     padding-bottom: 40px;
+
+}
+footer{
+     background-color:  #403d38;
+     display: flex;
+     flex-direction: column;
+    gap: 20px;
+   color: white;
+
+}
+footer h3{
+     color: white;
+}
+footer ul li{
+     border-bottom: 2px solid rgb(50, 49 ,49);
+}
+footer li a{
+     color: white;
+}
+.Sec{
+     display:flex ;
+     flex-direction: column;
+     gap: 20px;
+}
+.Sec ul{
+     display:flex ;
+     height: 100%;
+     flex-direction: column;
+
+     gap: 20px;
+    
+}
+
+.FooterSec4,.FooterSec1{
+     width: 25%;
+    
+}
+ul li:last-of-type{
+     border-bottom: none;
+}
+footer .SubFooter{
+     display: flex;
+     justify-content: center;
+     background-color: #403d38;
+
+    
+}
+footer .SubFooter .container{
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     gap: 20px;
+
+}
+
+.FooterSec4 ul li{
+     display: flex;
+     gap: 20px;
+
+}
+footer .SubFooter .container img{
+width: 400px;
+height: 200px;
+
+}
+.icons{
+     display: flex;
+     justify-content: center;
+     gap:20px;
+
+}
+.icons .icon{
+
+      width: 60px;
+       height:60px;
+       border-radius: 50%;
+     background: color #484540;
+     text-align: center;
+     display: flex;
+     flex-wrap: wrap;
+     align-content: center;
+     justify-content: center;
+}
+.icons .icon i{
+     font-size:50px;
+     color:#8c8a86;
 }
